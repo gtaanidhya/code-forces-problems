@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeLite_Workspace Name="Codeforces" Database="" Version="10000">
+  <Project Name="a-boy-or-girl" Path="a-boy-or-girl/a-boy-or-girl.project" Active="Yes"/>
+  <Project Name="Nearly-Lucky-Number" Path="Nearly-Lucky-Number/Nearly-Lucky-Number.project"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Environment/>
+      <Project Name="Watermelon" ConfigName="Debug"/>
+      <Project Name="way-to-long" ConfigName="Debug"/>
+      <Project Name="theatre-square" ConfigName="Debug"/>
+      <Project Name="team" ConfigName="Debug"/>
+      <Project Name="next-round" ConfigName="Debug"/>
+      <Project Name="string-task" ConfigName="Debug"/>
+      <Project Name="domino-piling" ConfigName="Debug"/>
+      <Project Name="bit++" ConfigName="Debug"/>
+      <Project Name="petya-and-strings" ConfigName="Debug"/>
+      <Project Name="beautiful-matrix" ConfigName="Debug"/>
+      <Project Name="helpful-maths" ConfigName="Debug"/>
+      <Project Name="capitalization" ConfigName="Debug"/>
+      <Project Name="stones-on-table" ConfigName="Debug"/>
+      <Project Name="football" ConfigName="Debug"/>
+      <Project Name="a-boy-or-girl" ConfigName="Debug"/>
+      <Project Name="a-young-physicist" ConfigName="Debug"/>
+      <Project Name="Soldier-and-bananas" ConfigName="Debug"/>
+      <Project Name="Bear-and-Big-Brother" ConfigName="Debug"/>
+      <Project Name="Chat-room" ConfigName="Debug"/>
+      <Project Name="Tram" ConfigName="Debug"/>
+      <Project Name="Wrong-Subtraction" ConfigName="Debug"/>
+      <Project Name="Lucky-Division" ConfigName="Debug"/>
+      <Project Name="elephant" ConfigName="Debug"/>
+      <Project Name="twins" ConfigName="Debug"/>
+      <Project Name="Queue-at-the-School" ConfigName="Debug"/>
+      <Project Name="Word" ConfigName="Debug"/>
+      <Project Name="Nearly-Lucky-Number" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Environment/>
+      <Project Name="Watermelon" ConfigName="Release"/>
+      <Project Name="way-to-long" ConfigName="Release"/>
+      <Project Name="theatre-square" ConfigName="Release"/>
+      <Project Name="team" ConfigName="Release"/>
+      <Project Name="next-round" ConfigName="Release"/>
+      <Project Name="string-task" ConfigName="Release"/>
+      <Project Name="domino-piling" ConfigName="Release"/>
+      <Project Name="bit++" ConfigName="Release"/>
+      <Project Name="petya-and-strings" ConfigName="Release"/>
+      <Project Name="beautiful-matrix" ConfigName="Release"/>
+      <Project Name="helpful-maths" ConfigName="Release"/>
+      <Project Name="capitalization" ConfigName="Release"/>
+      <Project Name="stones-on-table" ConfigName="Release"/>
+      <Project Name="football" ConfigName="Release"/>
+      <Project Name="a-boy-or-girl" ConfigName="Release"/>
+      <Project Name="a-young-physicist" ConfigName="Release"/>
+      <Project Name="Soldier-and-bananas" ConfigName="Release"/>
+      <Project Name="Bear-and-Big-Brother" ConfigName="Release"/>
+      <Project Name="Chat-room" ConfigName="Release"/>
+      <Project Name="Tram" ConfigName="Release"/>
+      <Project Name="Wrong-Subtraction" ConfigName="Release"/>
+      <Project Name="Lucky-Division" ConfigName="Release"/>
+      <Project Name="elephant" ConfigName="Release"/>
+      <Project Name="twins" ConfigName="Release"/>
+      <Project Name="Queue-at-the-School" ConfigName="Release"/>
+      <Project Name="Word" ConfigName="Release"/>
+      <Project Name="Nearly-Lucky-Number" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>

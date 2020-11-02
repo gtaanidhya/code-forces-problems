@@ -5,18 +5,18 @@
 ## Debug
 ProjectName            :=a-boy-or-girl
 ConfigurationName      :=Debug
-WorkspacePath          :="C:/Users/shipra gupta/Desktop/Cpp/Codeforces"
-ProjectPath            :="C:/Users/shipra gupta/Desktop/Cpp/Codeforces/a-boy-or-girl"
+WorkspacePath          :=C:/Users/gupta/Desktop/Cpp/code-forces-problems
+ProjectPath            :=C:/Users/gupta/Desktop/Cpp/code-forces-problems/a-boy-or-girl
 IntermediateDirectory  :=$(ConfigurationName)
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
-User                   :=Anidhya Gupta
-Date                   :=14/10/2020
+User                   :=gupta
+Date                   :=02/11/2020
 CodeLitePath           :="C:/Program Files/CodeLite"
-LinkerName             :=C:/TDM-GCC-64/bin/g++.exe
-SharedObjectLinkerName :=C:/TDM-GCC-64/bin/g++.exe -shared -fPIC
+LinkerName             :="C:/Program Files/mingw-w64/mingw64/bin/g++.exe"
+SharedObjectLinkerName :="C:/Program Files/mingw-w64/mingw64/bin/g++.exe" -shared -fPIC
 ObjectSuffix           :=.o
 DependSuffix           :=.o.d
 PreprocessSuffix       :=.i
@@ -36,7 +36,7 @@ ObjectsFileList        :="a-boy-or-girl.txt"
 PCHCompileFlags        :=
 MakeDirCommand         :=makedir
 RcCmpOptions           := 
-RcCompilerName         :=C:/TDM-GCC-64/bin/windres.exe
+RcCompilerName         :="C:/Program Files/mingw-w64/mingw64/bin/windres.exe"
 LinkOptions            :=  -static
 IncludePath            :=  $(IncludeSwitch). $(IncludeSwitch). 
 IncludePCH             := 
@@ -49,13 +49,13 @@ LibPath                := $(LibraryPathSwitch).
 ## Common variables
 ## AR, CXX, CC, AS, CXXFLAGS and CFLAGS can be overriden using an environment variables
 ##
-AR       := C:/TDM-GCC-64/bin/ar.exe rcu
-CXX      := C:/TDM-GCC-64/bin/g++.exe
-CC       := C:/TDM-GCC-64/bin/gcc.exe
+AR       := "C:/Program Files/mingw-w64/mingw64/bin/ar.exe" rcu
+CXX      := "C:/Program Files/mingw-w64/mingw64/bin/g++.exe"
+CC       := "C:/Program Files/mingw-w64/mingw64/bin/gcc.exe"
 CXXFLAGS :=  -g -O0 -std=c++17 -Wall $(Preprocessors)
 CFLAGS   :=  -g -O0 -Wall $(Preprocessors)
 ASFLAGS  := 
-AS       := C:/TDM-GCC-64/bin/as.exe
+AS       := "C:/Program Files/mingw-w64/mingw64/bin/as.exe"
 
 
 ##
@@ -95,7 +95,7 @@ PreBuild:
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp
 	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT$(IntermediateDirectory)/main.cpp$(ObjectSuffix) -MF$(IntermediateDirectory)/main.cpp$(DependSuffix) -MM main.cpp
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/shipra gupta/Desktop/Cpp/Codeforces/a-boy-or-girl/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/gupta/Desktop/Cpp/code-forces-problems/a-boy-or-girl/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
 
